@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.mycompany.stockarchive.StockResource.class);
+        resources.add(com.mycompany.stockarchive.SymbolResource.class);
     }
     
 }
