@@ -5,6 +5,9 @@ This repository is a back-end system of pseudo web application develpoed for dis
 User can search the best performing stocks based on given date ranges. User can also see the history of stock prices of days in given date 
 ranges.
 
+As response from API might be huge payload, pagination is implemented for both end-points. Client system have to send page number as one 
+of the parameters while communication with end-points.
+
 This back-end system exposes REST based API end-points (Search and Symbol) to communicate.
 
 The entire back-end is divided into 4 major tiers.
